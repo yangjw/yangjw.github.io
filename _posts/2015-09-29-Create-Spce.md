@@ -3,6 +3,7 @@
 layout: post
 title: Create Space
 tags: CocoaPods ruby
+eye_catch: http://jekyllrb.com/img/logo-2x.png
 ---
 
 本文CcocaPods来管理依赖库，没有使用模板来创建，未完待续......
@@ -19,6 +20,8 @@ tags: CocoaPods ruby
 	* README:说明文档
 	* .gitignore:记录了文件类型，git管理时不会将其纳入版本管理中
 	* license ：许可证，使用cocopods 必须要有
+
+<!--more-->
 
 2.将仓库clone到本地
 
