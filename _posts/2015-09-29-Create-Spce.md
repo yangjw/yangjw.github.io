@@ -2,8 +2,7 @@
 ---
 layout: post
 title: Create Space
-tags: CocoaPods
-eye_catch: http://jekyllrb.com/img/logo-2x.png
+tags: CocoaPods ruby
 ---
 
 本文CcocaPods来管理依赖库，没有使用模板来创建，未完待续......
