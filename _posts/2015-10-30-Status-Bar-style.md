@@ -17,6 +17,7 @@ eye_catch:
 // default is UIStatusBarStyleDefault
 [UIApplication sharedApplication].statusBarStyle
 ```
+<!--more-->
 解决个别 vc 中状态栏字体颜色不同的办法
 1、在info.plist中，将View controller-based status bar appearance设为NO.
 2、在app delegate中：
