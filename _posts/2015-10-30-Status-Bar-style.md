@@ -8,7 +8,7 @@ eye_catch:
 
 * 状态栏的字体为黑色： UIStatusBarStyleDefault
 * 状态栏的字体为白色： UIStatusBarStyleLightContent
-
+<!--more-->
 > 设置app的状态栏样式的使用使用了旧的方式，在info.plist里面设置了View controller-based status bar appearance为NO，默认为YES，一般式iOS6的时候使用这种方式，iOS7，8也兼容，但是到了iOS9就报了警告。
 一. 在 info.plist 中，将 View controller-based status bar appearance 设为 NO
 状态栏字体的颜色只由下面的属性设定，默认为白色：
@@ -17,7 +17,7 @@ eye_catch:
 // default is UIStatusBarStyleDefault
 [UIApplication sharedApplication].statusBarStyle
 ```
-<!--more-->
+
 解决个别 vc 中状态栏字体颜色不同的办法
 1、在info.plist中，将View controller-based status bar appearance设为NO.
 2、在app delegate中：
